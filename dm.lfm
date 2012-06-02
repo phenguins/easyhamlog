@@ -1,0 +1,54 @@
+object DM1: TDM1
+  OnCreate = DataModuleCreate
+  OldCreateOrder = False
+  Height = 338
+  HorizontalOffset = 814
+  VerticalOffset = 199
+  Width = 416
+  object Qry1: TSQLQuery
+    IndexName = 'DEFAULT_ORDER'
+    AutoCalcFields = False
+    Database = Con1
+    Transaction = Trans1
+    ReadOnly = False
+    Params = <>
+    left = 89
+    top = 8
+  end
+  object Trans1: TSQLTransaction
+    Active = False
+    Action = caNone
+    Database = Con1
+    left = 88
+    top = 63
+  end
+  object Con1: TSQLite3Connection
+    Connected = False
+    LoginPrompt = False
+    KeepConnection = False
+    Transaction = Trans1
+    Options = []
+    left = 24
+    top = 104
+  end
+  object DS1: TDatasource
+    DataSet = Qry1
+    left = 144
+    top = 37
+  end
+  object DS2: TDatasource
+    DataSet = qry2
+    left = 144
+    top = 176
+  end
+  object qry2: TSQLQuery
+    IndexName = 'DEFAULT_ORDER'
+    AutoCalcFields = False
+    Database = Con1
+    Transaction = Trans1
+    ReadOnly = False
+    Params = <>
+    left = 88
+    top = 176
+  end
+end

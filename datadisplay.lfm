@@ -1,0 +1,20 @@
+object DynDataForm: TDynDataForm
+  Left = 1486
+  Height = 240
+  Top = 679
+  Width = 320
+  Caption = 'DynDataForm'
+  ClientHeight = 240
+  ClientWidth = 320
+  OnCreate = FormCreate
+  LCLVersion = '0.9.29'
+  object DBEdit1: TDBEdit
+    Left = 110
+    Height = 23
+    Top = 31
+    Width = 80
+    CharCase = ecNormal
+    MaxLength = 0
+    TabOrder = 0
+  end
+end

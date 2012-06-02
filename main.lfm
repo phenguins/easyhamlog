@@ -1,0 +1,193 @@
+object Frm_display: TFrm_display
+  Left = 248
+  Height = 690
+  Top = 187
+  Width = 851
+  Caption = 'Frm_display'
+  ClientHeight = 670
+  ClientWidth = 851
+  Menu = MainMenu1
+  OnCreate = FormCreate
+  LCLVersion = '0.9.29'
+  Visible = True
+  object Panel1: TPanel
+    Left = 715
+    Height = 670
+    Top = 0
+    Width = 136
+    Align = alRight
+    ClientHeight = 670
+    ClientWidth = 136
+    TabOrder = 1
+    object Image2: TImage
+      Left = 8
+      Height = 112
+      Top = 0
+      Width = 112
+    end
+    object Image1: TImage
+      Left = 27
+      Height = 77
+      Top = 17
+      Width = 78
+      Transparent = True
+    end
+    object Button4: TButton
+      Left = 16
+      Height = 25
+      Top = 320
+      Width = 104
+      Caption = 'showInputForm'
+      OnClick = Button4Click
+      TabOrder = 1
+    end
+    object Button5: TButton
+      Left = 13
+      Height = 25
+      Top = 224
+      Width = 91
+      Caption = 'insertAuto'
+      OnClick = Button5Click
+      TabOrder = 2
+    end
+    object Button7: TButton
+      Left = 13
+      Height = 25
+      Top = 272
+      Width = 91
+      Caption = 'aidf export'
+      OnClick = Button7Click
+      TabOrder = 3
+    end
+    object Button6: TButton
+      Left = 13
+      Height = 25
+      Top = 176
+      Width = 91
+      Caption = 'readDBlog'
+      OnClick = Button6Click
+      TabOrder = 0
+    end
+    object Button8: TButton
+      Left = 704
+      Height = 25
+      Top = 416
+      Width = 75
+      Caption = 'fonts'
+      TabOrder = 4
+    end
+    object Button1: TButton
+      Left = 16
+      Height = 25
+      Top = 368
+      Width = 104
+      Caption = 'datadisplay'
+      OnClick = Button1Click
+      TabOrder = 5
+    end
+    object Button2: TButton
+      Left = 27
+      Height = 25
+      Top = 416
+      Width = 75
+      Caption = 'font'
+      OnClick = Button2Click
+      TabOrder = 6
+    end
+    object Button3: TButton
+      Left = 21
+      Height = 25
+      Top = 464
+      Width = 75
+      Caption = 'CheckTime'
+      OnClick = Button3Click
+      TabOrder = 7
+    end
+  end
+  object DBGrid1: TDBGrid
+    Left = 0
+    Height = 670
+    Top = 0
+    Width = 715
+    Align = alClient
+    Anchors = [akTop, akLeft, akBottom]
+    Columns = <>
+    Font.Height = -13
+    Font.Name = 'Bitstream Vera Sans Mono'
+    Options = [dgEditing, dgTitles, dgIndicator, dgColumnResize, dgColumnMove, dgColLines, dgRowLines, dgTabs, dgAlwaysShowSelection, dgConfirmDelete, dgCancelOnExit, dgAutoSizeColumns]
+    ParentFont = False
+    TabOrder = 0
+    TitleFont.Height = -13
+    TitleFont.Name = 'Bitstream Vera Sans Mono'
+    OnDrawColumnCell = DBGrid1DrawColumnCell
+    OnTitleClick = DBGrid1TitleClick
+  end
+  object dlgSave1: TSaveDialog
+    Filter = 'ADIF Files(*.adi)|*.adi|All Logs(*.*)|*.*'
+    left = 640
+    top = 256
+  end
+  object FontDialog1: TFontDialog
+    MinFontSize = 0
+    MaxFontSize = 0
+    left = 616
+    top = 408
+  end
+  object Timer1: TTimer
+    OnTimer = Timer1Timer
+    left = 480
+    top = 16
+  end
+  object MainMenu1: TMainMenu
+    left = 544
+    top = 152
+    object MenuItem1: TMenuItem
+      Caption = '文件'
+      object Menu_creatDB: TMenuItem
+        Caption = '新建数据库'
+        OnClick = Menu_creatDBClick
+      end
+      object Menubackup: TMenuItem
+        Caption = '数据库操作...'
+        OnClick = MenubackupClick
+      end
+      object MenuItem2: TMenuItem
+        Caption = '-'
+      end
+      object MenuItem5: TMenuItem
+        Caption = '打开最近的文件'
+      end
+      object MenuItem6: TMenuItem
+        Caption = '保存'
+      end
+      object MenuItem7: TMenuItem
+        Caption = '另存为'
+      end
+      object MenuItem8: TMenuItem
+        Caption = '关闭'
+      end
+      object MenuItem9: TMenuItem
+        Caption = '-'
+      end
+      object MenuItem10: TMenuItem
+        Caption = '退出'
+        OnClick = MenuItem10Click
+      end
+    end
+    object MenuItem11: TMenuItem
+      Caption = '帮助'
+      object MenuItem12: TMenuItem
+        Caption = '目录'
+      end
+      object MenuItem13: TMenuItem
+        Caption = '指南'
+      end
+      object MenuItem14: TMenuItem
+        Caption = '-'
+      end
+      object MenuItem15: TMenuItem
+        Caption = '关于'
+      end
+    end
+  end
+end

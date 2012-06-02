@@ -1,0 +1,123 @@
+object TimeUp: TTimeUp
+  Left = 1442
+  Height = 325
+  Top = 340
+  Width = 425
+  BorderIcons = [biSystemMenu, biMinimize]
+  BorderStyle = bsSingle
+  Caption = 'TimeUp'
+  ClientHeight = 325
+  ClientWidth = 425
+  FormStyle = fsStayOnTop
+  OnCreate = FormCreate
+  Position = poDesktopCenter
+  LCLVersion = '0.9.29'
+  object Button1: TButton
+    Left = 24
+    Height = 25
+    Top = 16
+    Width = 75
+    Caption = '本机对时'
+    OnClick = Button1Click
+    TabOrder = 0
+  end
+  object Label1: TLabel
+    Left = 24
+    Height = 1
+    Top = 96
+    Width = 1
+    Font.Height = 48
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 24
+    Height = 1
+    Top = 202
+    Width = 1
+    Font.Height = 48
+    ParentColor = False
+    ParentFont = False
+  end
+  object ListBox1: TListBox
+    Left = 248
+    Height = 192
+    Top = 56
+    Width = 156
+    Font.CharSet = 4
+    ItemHeight = 0
+    OnClick = ListBox1Click
+    ParentFont = False
+    TabOrder = 1
+  end
+  object Label3: TLabel
+    Left = 24
+    Height = 13
+    Top = 160
+    Width = 61
+    Caption = '本机时间：'
+    ParentColor = False
+  end
+  object Label4: TLabel
+    Left = 24
+    Height = 13
+    Top = 64
+    Width = 61
+    Caption = '网络时间：'
+    ParentColor = False
+  end
+  object Edit1: TEdit
+    Left = 248
+    Height = 25
+    Top = 24
+    Width = 156
+    OnDblClick = Edit1DblClick
+    TabOrder = 2
+    Text = 'stdtime.sinica.edu.tw'
+  end
+  object Button2: TButton
+    Left = 248
+    Height = 25
+    Top = 248
+    Width = 80
+    Caption = '添加新服务器'
+    OnClick = Button2Click
+    TabOrder = 3
+  end
+  object Button3: TButton
+    Left = 328
+    Height = 25
+    Top = 248
+    Width = 76
+    Caption = '删除服务器'
+    OnClick = Button3Click
+    TabOrder = 4
+  end
+  object Label5: TLabel
+    Left = 24
+    Height = 13
+    Top = 264
+    Width = 61
+    Caption = '当前时间：'
+    ParentColor = False
+  end
+  object Label6: TLabel
+    Left = 24
+    Height = 1
+    Top = 297
+    Width = 1
+    Font.CharSet = GB2312_CHARSET
+    Font.Color = clBlack
+    Font.Height = -13
+    Font.Name = '微软雅黑'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object Timer1: TTimer
+    OnTimer = Timer1Timer
+    left = 150
+    top = 269
+  end
+end
