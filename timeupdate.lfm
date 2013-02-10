@@ -1,7 +1,7 @@
 object TimeUp: TTimeUp
-  Left = 1442
+  Left = 742
   Height = 325
-  Top = 340
+  Top = 299
   Width = 425
   BorderIcons = [biSystemMenu, biMinimize]
   BorderStyle = bsSingle
@@ -11,7 +11,7 @@ object TimeUp: TTimeUp
   FormStyle = fsStayOnTop
   OnCreate = FormCreate
   Position = poDesktopCenter
-  LCLVersion = '0.9.29'
+  LCLVersion = '1.0.6.0'
   object Button1: TButton
     Left = 24
     Height = 25
@@ -68,7 +68,7 @@ object TimeUp: TTimeUp
   end
   object Edit1: TEdit
     Left = 248
-    Height = 25
+    Height = 20
     Top = 24
     Width = 156
     OnDblClick = Edit1DblClick

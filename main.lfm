@@ -1,14 +1,14 @@
 object Frm_display: TFrm_display
-  Left = 248
+  Left = 385
   Height = 690
-  Top = 187
+  Top = 132
   Width = 851
   Caption = 'Frm_display'
   ClientHeight = 670
   ClientWidth = 851
   Menu = MainMenu1
   OnCreate = FormCreate
-  LCLVersion = '0.9.29'
+  LCLVersion = '1.0.6.0'
   Visible = True
   object Panel1: TPanel
     Left = 715
@@ -111,6 +111,7 @@ object Frm_display: TFrm_display
     Width = 715
     Align = alClient
     Anchors = [akTop, akLeft, akBottom]
+    Color = clWindow
     Columns = <>
     Font.Height = -13
     Font.Name = 'Bitstream Vera Sans Mono'
@@ -123,11 +124,13 @@ object Frm_display: TFrm_display
     OnTitleClick = DBGrid1TitleClick
   end
   object dlgSave1: TSaveDialog
+    Title = 'Save file as'
     Filter = 'ADIF Files(*.adi)|*.adi|All Logs(*.*)|*.*'
     left = 640
     top = 256
   end
   object FontDialog1: TFontDialog
+    Title = 'Select a font'
     MinFontSize = 0
     MaxFontSize = 0
     left = 616

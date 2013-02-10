@@ -1,13 +1,13 @@
 object frm_itemselect: Tfrm_itemselect
-  Left = 529
+  Left = 1049
   Height = 425
-  Top = 206
+  Top = 411
   Width = 499
   Caption = 'frm_itemselect'
   ClientHeight = 425
   ClientWidth = 499
   OnCreate = FormCreate
-  LCLVersion = '0.9.29'
+  LCLVersion = '1.0.6.0'
   object CheckListBox1: TCheckListBox
     Left = 16
     Height = 376

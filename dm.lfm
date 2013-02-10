@@ -2,15 +2,14 @@ object DM1: TDM1
   OnCreate = DataModuleCreate
   OldCreateOrder = False
   Height = 338
-  HorizontalOffset = 814
-  VerticalOffset = 199
+  HorizontalOffset = 1173
+  VerticalOffset = 337
   Width = 416
   object Qry1: TSQLQuery
-    IndexName = 'DEFAULT_ORDER'
+    FieldDefs = <>
     AutoCalcFields = False
     Database = Con1
     Transaction = Trans1
-    ReadOnly = False
     Params = <>
     left = 89
     top = 8
@@ -27,6 +26,7 @@ object DM1: TDM1
     LoginPrompt = False
     KeepConnection = False
     Transaction = Trans1
+    LogEvents = []
     Options = []
     left = 24
     top = 104
@@ -42,11 +42,10 @@ object DM1: TDM1
     top = 176
   end
   object qry2: TSQLQuery
-    IndexName = 'DEFAULT_ORDER'
+    FieldDefs = <>
     AutoCalcFields = False
     Database = Con1
     Transaction = Trans1
-    ReadOnly = False
     Params = <>
     left = 88
     top = 176

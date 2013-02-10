@@ -1,11 +1,10 @@
 <?xml version="1.0"?>
 <CONFIG>
   <ProjectOptions>
+    <Version Value="9"/>
     <PathDelim Value="\"/>
-    <Version Value="8"/>
     <General>
       <MainUnit Value="0"/>
-      <TargetFileExt Value=".exe"/>
       <UseXPManifest Value="True"/>
       <Icon Value="0"/>
       <ActiveWindowIndexAtStart Value="0"/>
@@ -14,9 +13,12 @@
       <UseVersionInfo Value="True"/>
       <AutoIncrementBuild Value="True"/>
       <RevisionNr Value="1"/>
-      <BuildNr Value="4"/>
-      <StringTable Comments="" CompanyName="" FileDescription="" FileVersion="0.0.1.4" InternalName="" LegalCopyright="" LegalTrademarks="" OriginalFilename="" ProductName="" ProductVersion=""/>
+      <BuildNr Value="7"/>
+      <StringTable ProductVersion=""/>
     </VersionInfo>
+    <BuildModes Count="1">
+      <Item1 Name="default" Default="True"/>
+    </BuildModes>
     <PublishOptions>
       <Version Value="2"/>
       <IgnoreBinaries Value="False"/>
@@ -53,22 +55,23 @@
         <UnitName Value="datalink"/>
         <EditorIndex Value="4"/>
         <WindowIndex Value="0"/>
-        <TopLine Value="5"/>
+        <TopLine Value="1"/>
         <CursorPos X="23" Y="15"/>
-        <UsageCount Value="105"/>
+        <UsageCount Value="106"/>
         <Loaded Value="True"/>
       </Unit0>
       <Unit1>
         <Filename Value="main.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="Frm_display"/>
+        <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="main"/>
         <EditorIndex Value="6"/>
         <WindowIndex Value="0"/>
-        <TopLine Value="221"/>
-        <CursorPos X="19" Y="413"/>
-        <UsageCount Value="105"/>
+        <TopLine Value="136"/>
+        <CursorPos X="44" Y="151"/>
+        <UsageCount Value="106"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit1>
@@ -76,13 +79,15 @@
         <Filename Value="dm.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="DM1"/>
+        <HasResources Value="True"/>
         <ResourceBaseClass Value="DataModule"/>
         <UnitName Value="DM"/>
+        <IsVisibleTab Value="True"/>
         <EditorIndex Value="7"/>
         <WindowIndex Value="0"/>
-        <TopLine Value="33"/>
-        <CursorPos X="1" Y="29"/>
-        <UsageCount Value="105"/>
+        <TopLine Value="4"/>
+        <CursorPos X="53" Y="19"/>
+        <UsageCount Value="106"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit2>
@@ -97,13 +102,14 @@
         <Filename Value="input.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="frm_input"/>
+        <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="input"/>
         <EditorIndex Value="1"/>
         <WindowIndex Value="0"/>
         <TopLine Value="169"/>
         <CursorPos X="1" Y="59"/>
-        <UsageCount Value="102"/>
+        <UsageCount Value="103"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit4>
@@ -253,15 +259,15 @@
         <Filename Value="dbdir.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="frmdbfile"/>
+        <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="dbDir"/>
         <EditorIndex Value="0"/>
         <WindowIndex Value="0"/>
-        <TopLine Value="2"/>
-        <CursorPos X="3" Y="15"/>
-        <UsageCount Value="80"/>
+        <TopLine Value="1"/>
+        <CursorPos X="34" Y="41"/>
+        <UsageCount Value="81"/>
         <Loaded Value="True"/>
-        <LoadedDesigner Value="True"/>
       </Unit24>
       <Unit25>
         <Filename Value="J:\lazarus\fpc\2.4.3\source\rtl\objpas\sysutils\sysinth.inc"/>
@@ -327,7 +333,7 @@
         <WindowIndex Value="0"/>
         <TopLine Value="39"/>
         <CursorPos X="36" Y="49"/>
-        <UsageCount Value="66"/>
+        <UsageCount Value="67"/>
       </Unit32>
       <Unit33>
         <Filename Value="J:\lazarus\lcl\dbctrls.pp"/>
@@ -411,7 +417,7 @@
         <UsageCount Value="8"/>
       </Unit42>
       <Unit43>
-        <Filename Value="..\..\..\bookmanager\Source\Trunk\DBContorl.pas"/>
+        <Filename Value="N:\bookmanager\Source\Trunk\DBContorl.pas"/>
         <UnitName Value="DBContorl"/>
         <WindowIndex Value="0"/>
         <TopLine Value="109"/>
@@ -419,7 +425,7 @@
         <UsageCount Value="8"/>
       </Unit43>
       <Unit44>
-        <Filename Value="..\..\..\newdir-hg\Source\Trunk\MdNewdir.pas"/>
+        <Filename Value="N:\newdir-hg\Source\Trunk\MdNewdir.pas"/>
         <ComponentName Value="MainForm"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
@@ -440,13 +446,14 @@
         <Filename Value="logdisplay.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="frm_logdisp"/>
+        <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="Logdisplay"/>
         <EditorIndex Value="2"/>
         <WindowIndex Value="0"/>
-        <TopLine Value="16"/>
+        <TopLine Value="10"/>
         <CursorPos X="1" Y="35"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="27"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit46>
@@ -454,14 +461,14 @@
         <Filename Value="itemselect.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="frm_itemselect"/>
+        <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="itemselect"/>
-        <IsVisibleTab Value="True"/>
         <EditorIndex Value="3"/>
         <WindowIndex Value="0"/>
-        <TopLine Value="68"/>
-        <CursorPos X="13" Y="87"/>
-        <UsageCount Value="26"/>
+        <TopLine Value="64"/>
+        <CursorPos X="40" Y="75"/>
+        <UsageCount Value="27"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit47>
@@ -476,15 +483,15 @@
     <JumpHistory Count="30" HistoryIndex="29">
       <Position1>
         <Filename Value="itemselect.pas"/>
-        <Caret Line="79" Column="1" TopLine="66"/>
+        <Caret Line="78" Column="20" TopLine="66"/>
       </Position1>
       <Position2>
         <Filename Value="itemselect.pas"/>
-        <Caret Line="78" Column="1" TopLine="66"/>
+        <Caret Line="76" Column="1" TopLine="66"/>
       </Position2>
       <Position3>
         <Filename Value="itemselect.pas"/>
-        <Caret Line="79" Column="1" TopLine="66"/>
+        <Caret Line="77" Column="1" TopLine="66"/>
       </Position3>
       <Position4>
         <Filename Value="itemselect.pas"/>
@@ -492,120 +499,120 @@
       </Position4>
       <Position5>
         <Filename Value="itemselect.pas"/>
-        <Caret Line="79" Column="65" TopLine="66"/>
+        <Caret Line="79" Column="1" TopLine="66"/>
       </Position5>
       <Position6>
         <Filename Value="itemselect.pas"/>
-        <Caret Line="78" Column="59" TopLine="66"/>
+        <Caret Line="78" Column="1" TopLine="66"/>
       </Position6>
       <Position7>
         <Filename Value="itemselect.pas"/>
-        <Caret Line="77" Column="17" TopLine="66"/>
+        <Caret Line="80" Column="41" TopLine="66"/>
       </Position7>
       <Position8>
         <Filename Value="itemselect.pas"/>
-        <Caret Line="78" Column="20" TopLine="66"/>
+        <Caret Line="79" Column="28" TopLine="69"/>
       </Position8>
       <Position9>
         <Filename Value="itemselect.pas"/>
-        <Caret Line="76" Column="1" TopLine="66"/>
+        <Caret Line="75" Column="1" TopLine="69"/>
       </Position9>
       <Position10>
         <Filename Value="itemselect.pas"/>
-        <Caret Line="77" Column="1" TopLine="66"/>
+        <Caret Line="82" Column="11" TopLine="69"/>
       </Position10>
       <Position11>
         <Filename Value="itemselect.pas"/>
-        <Caret Line="78" Column="1" TopLine="66"/>
+        <Caret Line="77" Column="1" TopLine="69"/>
       </Position11>
       <Position12>
         <Filename Value="itemselect.pas"/>
-        <Caret Line="79" Column="1" TopLine="66"/>
+        <Caret Line="78" Column="1" TopLine="69"/>
       </Position12>
       <Position13>
         <Filename Value="itemselect.pas"/>
-        <Caret Line="78" Column="1" TopLine="66"/>
+        <Caret Line="80" Column="1" TopLine="69"/>
       </Position13>
       <Position14>
         <Filename Value="itemselect.pas"/>
-        <Caret Line="80" Column="41" TopLine="66"/>
+        <Caret Line="81" Column="1" TopLine="69"/>
       </Position14>
       <Position15>
         <Filename Value="itemselect.pas"/>
-        <Caret Line="79" Column="28" TopLine="69"/>
+        <Caret Line="78" Column="1" TopLine="69"/>
       </Position15>
       <Position16>
         <Filename Value="itemselect.pas"/>
-        <Caret Line="75" Column="1" TopLine="69"/>
+        <Caret Line="80" Column="1" TopLine="69"/>
       </Position16>
       <Position17>
         <Filename Value="itemselect.pas"/>
-        <Caret Line="82" Column="11" TopLine="69"/>
+        <Caret Line="81" Column="1" TopLine="69"/>
       </Position17>
       <Position18>
         <Filename Value="itemselect.pas"/>
-        <Caret Line="77" Column="1" TopLine="69"/>
+        <Caret Line="78" Column="1" TopLine="69"/>
       </Position18>
       <Position19>
         <Filename Value="itemselect.pas"/>
-        <Caret Line="78" Column="1" TopLine="69"/>
+        <Caret Line="80" Column="1" TopLine="69"/>
       </Position19>
       <Position20>
         <Filename Value="itemselect.pas"/>
-        <Caret Line="80" Column="1" TopLine="69"/>
+        <Caret Line="81" Column="1" TopLine="69"/>
       </Position20>
       <Position21>
         <Filename Value="itemselect.pas"/>
-        <Caret Line="81" Column="1" TopLine="69"/>
+        <Caret Line="78" Column="1" TopLine="69"/>
       </Position21>
       <Position22>
         <Filename Value="itemselect.pas"/>
-        <Caret Line="78" Column="1" TopLine="69"/>
+        <Caret Line="80" Column="1" TopLine="69"/>
       </Position22>
       <Position23>
         <Filename Value="itemselect.pas"/>
-        <Caret Line="80" Column="1" TopLine="69"/>
+        <Caret Line="81" Column="1" TopLine="69"/>
       </Position23>
       <Position24>
-        <Filename Value="itemselect.pas"/>
-        <Caret Line="81" Column="1" TopLine="69"/>
+        <Filename Value="main.pas"/>
+        <Caret Line="138" Column="14" TopLine="128"/>
       </Position24>
       <Position25>
-        <Filename Value="itemselect.pas"/>
-        <Caret Line="78" Column="1" TopLine="69"/>
+        <Filename Value="dbdir.pas"/>
+        <Caret Line="52" Column="32" TopLine="38"/>
       </Position25>
       <Position26>
-        <Filename Value="itemselect.pas"/>
-        <Caret Line="80" Column="1" TopLine="69"/>
+        <Filename Value="dbdir.pas"/>
+        <Caret Line="46" Column="1" TopLine="38"/>
       </Position26>
       <Position27>
-        <Filename Value="itemselect.pas"/>
-        <Caret Line="81" Column="1" TopLine="69"/>
+        <Filename Value="dbdir.pas"/>
+        <Caret Line="81" Column="1" TopLine="67"/>
       </Position27>
       <Position28>
-        <Filename Value="itemselect.pas"/>
-        <Caret Line="78" Column="1" TopLine="69"/>
+        <Filename Value="dbdir.pas"/>
+        <Caret Line="82" Column="1" TopLine="67"/>
       </Position28>
       <Position29>
-        <Filename Value="itemselect.pas"/>
-        <Caret Line="80" Column="1" TopLine="69"/>
+        <Filename Value="dbdir.pas"/>
+        <Caret Line="83" Column="1" TopLine="67"/>
       </Position29>
       <Position30>
-        <Filename Value="itemselect.pas"/>
-        <Caret Line="81" Column="1" TopLine="69"/>
+        <Filename Value="main.pas"/>
+        <Caret Line="151" Column="15" TopLine="134"/>
       </Position30>
     </JumpHistory>
   </ProjectOptions>
   <CompilerOptions>
-    <Version Value="9"/>
+    <Version Value="11"/>
     <PathDelim Value="\"/>
     <Target>
-      <Filename Value="../../bin/data.exe"/>
+      <Filename Value="../bin/data"/>
     </Target>
     <SearchPaths>
-      <IncludeFiles Value="$(ProjOutDir)\"/>
-      <OtherUnitFiles Value="..\Branches\"/>
-      <UnitOutputDirectory Value="../../ppu"/>
+      <IncludeFiles Value="$(ProjOutDir)"/>
+      <OtherUnitFiles Value="..\Branches"/>
+      <UnitOutputDirectory Value="../ppu"/>
     </SearchPaths>
     <Parsing>
       <SyntaxOptions>
@@ -614,7 +621,7 @@
     </Parsing>
     <Linking>
       <Debugging>
-        <GenerateDebugInfo Value="True"/>
+        <DebugInfoType Value="dsStabs"/>
         <StripSymbols Value="True"/>
       </Debugging>
       <Options>
@@ -631,15 +638,14 @@
     </Other>
   </CompilerOptions>
   <Debugging>
-    <BreakPoints Count="2">
+    <BreakPoints Count="1">
       <Item1>
-        <Source Value="dbdir.pas"/>
-        <Line Value="120"/>
-      </Item1>
-      <Item2>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsGlobal"/>
+        <WatchKind Value="wpkWrite"/>
         <Source Value="itemselect.pas"/>
         <Line Value="75"/>
-      </Item2>
+      </Item1>
     </BreakPoints>
     <Watches Count="6">
       <Item1>

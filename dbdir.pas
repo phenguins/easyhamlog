@@ -43,8 +43,8 @@ var //t:TFormatSettings;
     time,cmdline,s:string;
     p:TProcess;
 begin
-  if lst1.ItemIndex>0 then
-  begin
+  //if lst1.ItemIndex>0 then
+  //begin
     time:=FormatDateTime('yyyymmdd-hhmmss',Now);
   s:=ExtractFilePath(Application.ExeName)+'backup\';
   if not DirectoryExists(s) then MkDir(s);
@@ -77,7 +77,7 @@ begin
     else
     Application.MessageBox('数据库备份成功', '提示', 0);
   end;
-  end;
+  //end;
   DM1.con1.Connected:=True;
   FillList(lst1);
   self.Hide;

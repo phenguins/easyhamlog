@@ -1,12 +1,12 @@
 object frm_logdisp: Tfrm_logdisp
-  Left = 394
+  Left = 924
   Height = 419
-  Top = 192
+  Top = 332
   Width = 718
   Caption = 'frm_logdisp'
   ClientHeight = 419
   ClientWidth = 718
-  LCLVersion = '0.9.29'
+  LCLVersion = '1.0.6.0'
   object Panel1: TPanel
     Left = 0
     Height = 419
@@ -28,13 +28,14 @@ object frm_logdisp: Tfrm_logdisp
       TabOrder = 0
       object TabSheet1: TTabSheet
         Caption = 'Log'
-        ClientHeight = 387
+        ClientHeight = 392
         ClientWidth = 708
         object DateEdit1: TDateEdit
           Left = 11
-          Height = 25
+          Height = 20
           Top = 5
-          Width = 112
+          Width = 80
+          DialogTitle = 'Select a date'
           CalendarDisplaySettings = [dsShowHeadings, dsShowDayNames]
           OKCaption = 'OK'
           CancelCaption = 'Cancel'
@@ -102,11 +103,12 @@ object frm_logdisp: Tfrm_logdisp
         end
         object DBGrid1: TDBGrid
           Left = 11
-          Height = 387
+          Height = 392
           Top = 37
           Width = 708
           Align = alCustom
           Anchors = [akTop, akLeft, akRight, akBottom]
+          Color = clWindow
           Columns = <>
           TabOrder = 3
         end
